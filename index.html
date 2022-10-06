@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="김모범 프로필" />
+        <meta property="og:description" content="연기하는 사람 김모범" />
+        <meta property="og:image" content="르탄이.jpg" />
+        <title>김모범 - 연기하는 사람</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color: #44398A;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border : 2px solid white;
+
+                background-image: url(르탄이.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398A;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">김모범</h1>
+            <p class="sub">연기하는 사람</p>
+
+            <a target="_blank" href="https://youtu.be/IYlBI3oeArI">김모범 연기영상</a>
+            <a target="_blank" href="https://www.instagram.com/mobeom2/">김모범 인스타그램</a>
+            <a target="_blank" href="https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EA%B9%80%EB%AA%A8%EB%B2%94&qdt=0&ie=utf8&query=%EA%B9%80%EB%AA%A8%EB%B2%94">김모범 네이버</a>
+        </div>
+    </body>
+</html>
